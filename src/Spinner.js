@@ -10,4 +10,9 @@ const Spinner = props => {
   );
 };
 
+Spinner.defaultProps = {
+  message: 'Loaddig...'
+
+};
+
 export default Spinner;
